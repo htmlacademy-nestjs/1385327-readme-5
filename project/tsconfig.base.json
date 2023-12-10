@@ -14,9 +14,13 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
+<<<<<<< HEAD
     "paths": {
       "@project/shared/app/types": ["libs/shared/app/types/src/index.ts"]
     }
+=======
+    "paths": {}
+>>>>>>> 28ba865 (itit: start user service)
   },
   "exclude": ["node_modules", "tmp"]
 }
