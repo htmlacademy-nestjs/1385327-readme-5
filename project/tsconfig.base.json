@@ -15,12 +15,18 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
 <<<<<<< HEAD
+<<<<<<< HEAD
     "paths": {
       "@project/shared/app/types": ["libs/shared/app/types/src/index.ts"]
     }
 =======
     "paths": {}
 >>>>>>> 28ba865 (itit: start user service)
+=======
+    "paths": {
+      "@project/shared/app/types": ["libs/shared/app/types/src/index.ts"]
+    }
+>>>>>>> ae60823 (init: srart library libs/shared/app/types)
   },
   "exclude": ["node_modules", "tmp"]
 }
