@@ -1,0 +1,28 @@
+# Create a new user
+POST http://localhost:3000/api/auth/register HTTP/1.1
+Content-Type: application/json
+
+{
+  "email": "keks@cot.da",
+  "name": "Keks",
+  "avatarPath": "keks.png",
+  "password": "123456"
+}
+
+###
+
+# Get user by ID
+GET http://localhost:3000/api/auth/b468453c-edb6-4407-8a63-55d128efdc85 HTTP/1.1
+
+###
+
+# Login user by email and password
+POST http://localhost:3000/api/auth/login HTTP/1.1
+Content-Type: application/json
+
+{
+  "email": "keks@cot.da",
+  "password": "123456"
+}
+
+###
